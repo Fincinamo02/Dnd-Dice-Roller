@@ -1,0 +1,52 @@
+import random
+
+result = 0
+
+while True:
+    print("Welcome to the digital Dungeons and Dragons dice roller")
+    print("---")
+    print("Press '1' to roll a d4")
+    print("Press '2' to roll a d6")
+    print("Press '3' to roll a d8")
+    print("Press '4' to roll a d10")
+    print("Press '5' to roll a d12")
+    print("Press '6' to roll a d20")
+    print("Press '7' to roll a d100")
+    print("Press '8' to exit")
+        
+    choice = input("Choose one of the options above : ")
+        
+    if choice == "1":
+        result = random.randint(1,4)
+        
+    elif choice == "2":
+        result = random.randint(1,6)
+            
+    elif choice == "3":
+        result = random.randint(1,8)
+            
+    elif choice == "4":
+        result = random.randint(1,10)
+            
+    elif choice == "5":
+        result = random.randint(1,12)
+        
+    elif choice == "6":
+        result = random.randint(1,20)
+            
+    elif choice == "7":
+        result = random.randint(1,100)
+            
+    elif choice == "8":
+        print("closing...")
+        break
+        
+    else:
+        print("Invalid input")
+        
+    if result > 0:
+        print(result)
+    else:
+        pass
+        
+            
