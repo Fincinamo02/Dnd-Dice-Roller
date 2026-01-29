@@ -1,4 +1,4 @@
 # Dnd-Dice-Roller
-An algorithm for an advanced dice roller using RNG. You will be able to roll every dice typre needed in DnD.
+I made this algorithm in order to refine my skills with designing menu driven programs and randomness based on user input. 
 
 Run with Python 3
